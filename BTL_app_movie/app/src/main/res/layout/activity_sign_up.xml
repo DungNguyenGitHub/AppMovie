@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <!--    background=null : xóa nền   -->
+    <!--    scaleType="fitCenter" : tự động căn chỉnh ảnh từ giữa   -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@null"
+        tools:src="@drawable/back_button"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/textQuayLai"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textStyle="bold"
+        android:textSize="@dimen/size40"
+        android:textColor="#0A2337"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/edtEmail"
+        android:layout_marginBottom="@dimen/size60"
+        />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtPassword"
+        android:layout_marginStart="@dimen/size10"
+        android:layout_marginTop="@dimen/size10"
+        android:layout_marginEnd="@dimen/size10"
+        android:layout_marginBottom="@dimen/size10"
+        android:hint="@string/textEmail"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/size25" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/size10"
+        android:layout_marginTop="@dimen/size10"
+        android:layout_marginEnd="@dimen/size10"
+        android:layout_marginBottom="@dimen/size10"
+        android:hint="@string/textPassword"
+        android:inputType="textPassword"
+        android:textSize="@dimen/size25" />
+
+    <EditText
+        android:id="@+id/edtPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtPassword"
+        android:layout_marginStart="@dimen/size10"
+        android:layout_marginTop="@dimen/size10"
+        android:layout_marginEnd="@dimen/size10"
+        android:layout_marginBottom="@dimen/size10"
+        android:hint="@string/textCo_Password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/size25" />
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtPassword2"
+        android:layout_marginStart="@dimen/size10"
+        android:layout_marginTop="@dimen/size20"
+        android:layout_marginEnd="@dimen/size10"
+        android:layout_marginBottom="10dp"
+        android:background="#0A2337"
+        android:textColor="@color/white"
+        android:text="@string/sign_up"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/size10"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_an_acc"
+            android:textSize="@dimen/size20"
+            />
+        <TextView
+            android:id="@+id/tvSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:textSize="@dimen/size20"
+            android:textColor="#F49508"
+            />
+    </LinearLayout>
+</RelativeLayout>

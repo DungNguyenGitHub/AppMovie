@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "295292432614",
+    "firebase_url": "https://btl-app-movie-default-rtdb.firebaseio.com",
+    "project_id": "btl-app-movie",
+    "storage_bucket": "btl-app-movie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295292432614:android:b7d79ed4a19597cd8ecb27",
+        "android_client_info": {
+          "package_name": "com.example.btl_app_movie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295292432614-lto6efpqgj74m7oek5bedu8co89k6po1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr2wE7aO49YialTpwW1PgDCitNiMzG4do"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295292432614-lto6efpqgj74m7oek5bedu8co89k6po1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

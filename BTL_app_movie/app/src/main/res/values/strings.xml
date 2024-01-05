@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BTL_app_movie</string>
+    <string name="textEmail">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="nhom4">Nhóm 4 - CNTT 4</string>
+    <string name="my_movie">My Movie Application</string>
+    <string name="textAccount">Account</string>
+    <string name="textChangePassword">Change Password</string>
+    <string name="textQuayLai">Quay lại</string>
+    <string name="textPassword">Password</string>
+    <string name="textResetPass">Reset Password</string>
+    <string name="textCo_Password">Confirm Password</string>
+    <string name="text_an_acc">Already have an account?</string>
+    <string name="text_dont_acc">"Don't have an account?"</string>
+    <string name="text_save">Save</string>
+    <string name="text_newPass">New password</string>
+
+
+
+    <string name="home_fragment">Home fragment</string>
+    <string name="favorite_fragment">Favorite fragment</string>
+    <string name="history_fragment">History fragment</string>
+    <string name="account_fragment">Account fragment</string>
+
+    <string name="action_home">Home</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_history">History</string>
+    <string name="action_account">Account</string>
+
+    <string name="mnu_add">Add</string>
+    <string name="mnu_update">Update</string>
+    <string name="mnu_delete">Delete</string>
+    <string name="mnu_account">Account</string>
+
+    <string name="text_add_csdl">Add movie</string>
+    <string name="text_ten">Tên phim</string>
+    <string name="text_image">Uri image</string>
+    <string name="text_url_movie">Url movie</string>
+    <string name="text_mota">Mô tả</string>
+    <string name="text_daoDien">Đạo diễn</string>
+    <string name="text_dienVien">Diễn viên</string>
+    <string name="text_theLoai">Thể loại</string>
+    <string name="text_thoiLuong">Thời lượng</string>
+    <string name="text_quocGia">Quốc gia</string>
+    <string name="text_namSX">Năm sản xuất</string>
+    <string name="text_confirm">Bạn muốn xóa phim không?</string>
+
+</resources>

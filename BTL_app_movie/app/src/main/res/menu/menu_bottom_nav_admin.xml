@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuThem"
+        android:icon="@drawable/ic_add_circle_24"
+        android:title="@string/mnu_add" />
+
+    <item
+        android:id="@+id/mnuSua"
+        android:icon="@drawable/ic_update_24"
+        android:title="@string/mnu_update" />
+
+    <item
+        android:id="@+id/mnuXoa"
+        android:icon="@drawable/ic_delete_24"
+        android:title="@string/mnu_delete" />
+
+    <item
+        android:id="@+id/mnuLogOut"
+        android:icon="@drawable/ic_manage_accounts"
+        android:title="@string/mnu_account" />
+</menu>

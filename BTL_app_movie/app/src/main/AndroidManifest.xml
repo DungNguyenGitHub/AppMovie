@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<!--    <meta-data-->
+<!--        android:name="com.google.android.youtube.api.key"-->
+<!--        android:value="AIzaSyDr2wE7aO49YialTpwW1PgDCitNiMzG4do" />-->
+    <!--android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" Ẩn toolbar-->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:targetApi="31"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+
+        >
+
+        <!-- Set BeginActivity là activity đầu tiên -->
+        <activity
+            android:name=".BeginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+        android:name=".ChiTietXemPhim"
+        android:exported="false" />
+        <activity
+            android:name=".xemphim.XemPhim"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
